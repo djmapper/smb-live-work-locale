@@ -1,0 +1,429 @@
+﻿@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2)
+{
+    .esriCTHeaderSearch
+    {
+        background-image: url("../images/img2X/search@2X.png") !important;
+    }
+
+    .esriCTHeaderSearch-select
+    {
+        background-image: url("../images/img2X/search-select@2X-purple.png") !important;
+    }
+
+    .esriCTHelpImg
+    {
+        background-image: url("../images/img2X/help@2X.png") !important;
+    }
+
+    .esriCTTdGeolocation
+    {
+        background-image: url("../images/img2X/geo-location@2x.png") !important;
+    }
+
+    .esriCTImgSocialMedia
+    {
+        background-image: url("../images/img2X/share@2X.png") !important;
+    }
+
+    .esriCTImgSocialMediaSelect
+    {
+        background-image: url("../images/img2X/share-select@2X-purple.png") !important;
+    }
+
+    .facebook
+    {
+        background-image: url("../images/img2X/img_twitter@2x-purple.png") !important;
+    }
+
+    .twitter
+    {
+        background-image: url("../images/img2X/img_twitter@2x-purple.png") !important;
+    }
+
+    .email
+    {
+        background-image: url("../images/img2X/img-email@2x-purple.png") !important;
+    }
+
+    .esriCTExitImg
+    {
+        background-image: url("../images/img44x44/exit.png") !important;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .esriCTHeaderSearch
+    {
+        background-image: url("../images/img44x44/search.png") !important;
+    }
+
+    .esriCTHeaderSearch-select
+    {
+        background-image: url("../images/img44x44/search-select-purple.png") !important;
+    }
+
+    .esriCTHelpImg
+    {
+        background-image: url("../images/img44x44/Help.png") !important;
+    }
+
+    .esriCTTdGeolocation
+    {
+        background-image: url("../images/img44x44/imgGeolocation.png") !important;
+    }
+
+    .esriCTImgSocialMedia
+    {
+        background-image: url("../images/img44x44/imgSocialMedia.png") !important;
+    }
+
+    .esriCTImgSocialMediaSelect
+    {
+        background-image: url("../images/img44x44/imgSocialMedia-select-purple.png") !important;
+    }
+
+    .facebook
+    {
+        background-image: url("../images/img44x44/img_facebook_purple.png") !important;
+    }
+
+    .twitter
+    {
+        background-image: url("../images/img44x44/img_twitter_purple.png") !important;
+    }
+
+    .email
+    {
+        background-image: url("../images/img44x44/img_email_purple.png") !important;
+    }
+
+    .embedding
+    {
+        background-image: url("../images/img44x44/embedding_purple.png") !important;
+    }
+
+    .esriCTExitImg
+    {
+        background-image: url("../images/img44x44/exit.png") !important;
+    }
+}
+
+/*main browser theme*/
+.esriCTHeaderSearch
+{
+    background-image: url("../images/img24x24/search-24.png");
+}
+
+.esriCTHelpImg
+{
+    background-image: url("../images/img24x24/Help-24.png");
+}
+
+.esriCTHeaderSearch-select
+{
+    background-image: url("../images/img24x24/search-select-purple-24.png");
+}
+
+.esriCTTdGeolocation
+{
+    background-image: url("../images/img24x24/imgGeolocation-24.png");
+}
+
+.esriCTImgSocialMediaSelect
+{
+    background-image: url("../images/img24x24/imgSocialMedia_purple-24.png");
+}
+
+.esriCTImgSocialMedia
+{
+    background-image: url("../images/img24x24/imgSocialMedia-24.png");
+}
+
+.facebook
+{
+    background-image: url("../images/img24x24/img_facebook_purple-24.png");
+}
+
+.twitter
+{
+    background-image: url("../images/img24x24/img_twitter_purple-24.png");
+}
+
+.email
+{
+    background-image: url("../images/img24x24/img_email_purple-24.png");
+}
+
+.embedding
+{
+    background-image: url("../images/img24x24/embedding_purple-24.png");
+}
+
+.esriCTExitImg
+{
+    background-image: url("../images/img24x24/exit-24.png");
+}
+
+.locateSearchicon
+{
+    background-image: url("../images/search-purple.png") !important;
+}
+
+.infoTitleArrow
+{
+    background-image: url("../images/right-purple-arrow.png");
+}
+
+.infoBackTitleArrow
+{
+    background-image: url("../images/purple-arrow.png");
+}
+
+.esriCTdivInfoRightArrow
+{
+    background: url("../images/right-purple-arrow.png");
+}
+
+.esriCTdivInfoLeftArrow
+{
+    background: url("../images/purple-arrow.png");
+}
+
+.esriCTLeftArrow, .esriCTRightArrow
+{
+    background-color: #5C2E6F !important;
+}
+
+.esriCTApplicationHeader
+{
+    border-bottom: 1px solid #5C2E6F !important;
+}
+
+.esriSimpleSliderDecrementButton, .esriSimpleSliderIncrementButton
+{
+    background-color: #5C2E6F !important;
+}
+
+.HomeButton .home, .HomeButton .home:hover
+{
+    background-color: #5C2E6F;
+}
+
+.BasemapToggle .toggleButton
+{
+    border: 2px solid #5C2E6F !important;
+}
+
+.BasemapToggle .basemapTitle
+{
+    color: #5C2E6F !important;
+}
+
+.BasemapToggle .basemapImage
+{
+    border: 1px solid #5C2E6F;
+}
+
+.esriCTApplicationHeaderTextSelected
+{
+    color: #5C2E6F !important;
+}
+
+.esriCTDivLegendInnerBox
+{
+    border: 1px solid #5C2E6F;
+}
+
+.esriInfoPanelContainer
+{
+    color: #5C2E6F !important;
+}
+
+.esriCTHeaderLine
+{
+    color: #5C2E6F !important;
+}
+
+.esriPopup .titlePane
+{
+    color: #5C2E6F !important;
+    border-color: #5C2E6F !important;
+    border-bottom: 1px solid #5C2E6F;
+}
+
+.esriPopup .contentPane
+{
+    border-color: #5C2E6F !important;
+}
+
+.esriPopup .actionsPane
+{
+    border-color: #5C2E6F !important;
+}
+
+.esriCTTInfoWindowContainer
+{
+    border: #5C2E6F solid 1px;
+}
+
+.esriCTinfoWindow
+{
+    border: #5C2E6F solid 1px;
+}
+
+.infopanel
+{
+    border-top: 1px #5C2E6F solid;
+}
+
+.esriCTAddressContent
+{
+    border-right: 1px solid #5C2E6F;
+    border-left: 1px solid #5C2E6F;
+    border-bottom: 1px solid #5C2E6F;
+}
+
+.esriCTDivAppHolder
+{
+    background-color: #fff;
+    border-right: 1px solid #5C2E6F;
+    border-left: 1px solid #5C2E6F;
+    border-bottom: 1px solid #5C2E6F;
+}
+
+.esriCTDivshareContainer
+{
+    background-color: #fff;
+    border-right: 1px solid #5C2E6F;
+    border-left: 1px solid #5C2E6F;
+    border-bottom: 1px solid #5C2E6F;
+}
+
+.esriCTTxtShare
+{
+    border-top: 1px solid #5C2E6F;
+    border-bottom: 1px solid #5C2E6F;
+    border-left: 1px solid #5C2E6F;
+    border-right: 1px solid #5C2E6F;
+}
+
+.esriCTSliderMinutes
+{
+    color: #5C2E6F;
+}
+
+/*header*/
+.driveIconSelected
+{
+    background-image: url("../images/car-select-purple.png");
+}
+
+.walkIconSelected
+{
+    background-image: url("../images/walk-select-purple.png");
+}
+
+/*slider*/
+.dijitSliderImageHandleH
+{
+    background-image: url('../images/thumb-purple.png') !important;
+}
+
+.claro .dijitSliderProgressBarH .dijitSliderThumbHover
+{
+    background-image: url('../images/thumb-purple.png') !important;
+}
+
+.dijitSliderBumperH, .dijitSliderBarH
+{
+    background-color: #5C2E6F;
+}
+
+.claro .dijitSlider .dijitSliderProgressBarH, .claro .dijitSlider .dijitSliderLeftBumper
+{
+    background-color: #5C2E6F;
+}
+
+/*seach button*/
+.locateSearchicon
+{
+    background-image: url("../images/search-purple.png") !important;
+}
+/*share*/
+
+/*grouped address*/
+
+.esriCTResultColor
+{
+    color: #5C2E6F;
+}
+
+.collapse
+{
+    background-image: url('../images/expand-select-purple.png');
+}
+
+.expand
+{
+    background-image: url('../images/list-legend-select-purple.png');
+}
+
+.esriCTlayerFeatures
+{
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.layerTitle
+{
+    color: #5C2E6F;
+}
+
+.esriCTlayerFeatures
+{
+    color: #5C2E6F;
+}
+
+.divSelectedFeature
+{
+    border-top: 1px solid #5C2E6F;
+}
+
+.collapseSelectedBlue
+{
+    background-image: url('../images/list-legend-select-purple.png') !important;
+}
+
+.expandSelectedBlue
+{
+    background-image: url('../images/expand-select-purple.png') !important;
+}
+
+.spanRouteLength
+{
+    color: #5C2E6F;
+}
+
+/* infowindow anchor*/
+.esriCTdivTriangle
+{
+    background-image: url("../images/bottomArrow-purple.png");
+}
+/*legends */
+
+.esriCTDivLegendBoxContent
+{
+    background: #FFFFFF;
+}
+
+.esriCTDivLegendLabel
+{
+    color: #6e6e6e;
+}
+
+.esriCTDivLegendInnerBox div
+{
+    color: #6e6e6e;
+}
+
+/* End of legends */

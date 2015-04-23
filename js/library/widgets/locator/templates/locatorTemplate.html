@@ -1,0 +1,67 @@
+﻿<div data-dojo-attach-point="divAddressContainer" align="center" class="esriCTAddressContainer"
+    style="display: block">
+    <div data-dojo-attach-point="divAddressHolder" class="esriCTHideContainerHeight esriCTAddressHolder">
+        <div data-dojo-attach-point="divAddressContent" class="esriCTAddressContent">
+            <div data-dojo-attach-point="divAddressResultContainer" class="esriCTAddressResultContainer">
+                <div class="esriCTFullWidth">
+                    <div data-dojo-attach-point="divAddressSearch" class="divAddressSearch" align="left">
+                        <div data-dojo-attach-point="divAddressPlaceHolder" class="esriCTAddressPlaceHolder">
+                            <div style="float: left; width: 196px;">
+                                <input type="text" data-dojo-attach-point="txtAddress" class="esriCTTxtAddress" onfocus="if(this.setSelectionRange)this.setSelectionRange(this.value.length, this.value.length);" />
+                            </div>
+                            <div class="esriCTSearchClose" data-dojo-attach-point="clearhide">
+                                <span class="clearInput" title="${sharedNls.tooltips.clear}" data-dojo-attach-point="close">
+                                </span><span>
+                                    <img data-dojo-attach-point="imgSearchLoader" class="esriCTSearchLoader" /></span>
+                            </div>
+                        </div>
+                        <div class="esriCTSearch" data-dojo-attach-point="esriCTSearch">
+                            <span class="locateSearchicon" data-dojo-attach-point="esriCTimgLocate" title="${sharedNls.tooltips.locateAddress}">
+                            </span>
+                        </div>
+                        <div data-dojo-attach-point="divAddressList" class="esriCTAddressList">
+                            <div class="esriNoResultFound" data-dojo-attach-point="noResultFound">
+                                ${sharedNls.errorMessages.invalidSearch}
+                            </div>
+                            <div data-dojo-attach-point="divAddressScrollContainer" class="divAddressScrollContainer"
+                                align="left">
+                                <div data-dojo-attach-point="divAddressScrollContent" class="esriCTAddressScrollContent">
+                                    <div data-dojo-attach-point="divAddressResults" class="esriCTFullWidth">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-dojo-attach-point="SliderContainer" class="esriCTSlideresriCTSlider">
+                <span data-dojo-attach-point="sliderMessage" class="esriCTSliderMessage">{sharedNls.titles.sliderDisplayText}
+                </span>
+                <div class="esriCTSlider">
+                    <div data-dojo-attach-point="horizontalRuleContainer" class="esriCTHorizontalRuleContainer">
+                    </div>
+                    <div data-dojo-attach-point="horizontalSliderContainer" class="esriCTHorizontalSliderContainer">
+                    </div>
+                </div>
+                <div class="esriCTDrive" data-dojo-attach-point="esriCTDrive">
+                    <span class="driveIconSelected" data-dojo-attach-point="esriCTimgDrive"></span>
+                </div>
+                <div class="esriCTWalk" data-dojo-attach-point="esriCTWalk">
+                    <span class="walkIcon" data-dojo-attach-point="esriCTimgWalk"></span>
+                </div>
+            </div>
+            <div data-dojo-attach-point="divSelectedFeature" class="divSelectedFeature esriCTAddressHolderHeight">
+                <div data-dojo-attach-point="headerContainer" class="headerContainer">
+                    <div class="nearbyMessage">
+                    </div>
+                    <div class="toggleExpandCollapse collapse">
+                    </div>
+                </div>
+                <div data-dojo-attach-point="divSelectedFeatureContent" class="divSelectedFeatureContent">
+                    <div data-dojo-attach-point="divSelectedFeatureList" style="text-align: left;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

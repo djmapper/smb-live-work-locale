@@ -1,0 +1,22 @@
+.esriSimpleSliderDecrementButton, .esriSimpleSliderIncrementButton
+{
+   
+    background-color: #666666;
+}
+.esriSimpleSliderDecrementButton:hover, .esriSimpleSliderIncrementButton:hover
+{
+   
+    background-color: #666666;
+}
+.esriGovtLoadingIndicator
+{
+ 
+    background-color: #000;
+    filter: alpha(opacity = 40);
+   
+}
+.divSplashContainer{ background-color: #fff;
+ 
+     filter:alpha(opacity=100) ;
+  
+}
